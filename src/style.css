@@ -1,6 +1,6 @@
 
 :root {
-    --primary-color: #DE8B8B;
+    --primary-color: #f6aeae;
     --secondary-color: #707070;
     --third-color:#F6F5F5;
     --backgroung-color:#F8E1E1;
@@ -15,6 +15,7 @@ body{
     padding: 0;
     font-family: 'Poppins', sans-serif;
     background-color:var(--backgroung-color);
+    color: var(--secondary-color);
    
 }
 h1{
@@ -24,19 +25,16 @@ h1{
     margin-top: 20px;
 }
 h2{
-    font-weight: 200;
+    font-weight: 400;
     
 }
 p{
-    font-weight: 100;
-}
-button{
-    background-color: var(--primary-color);
-    border-radius: 5px;
-    margin: 15px 20px;
+    font-weight: 300;
 }
 .portada{
-    background-color: #DE8B8B;
+    background-color:var(--primary-color);
+    line-height: 300px;
+    margin-bottom: 20px;
 }
 .btn-branding{
     background: var(--primary-color);
@@ -44,6 +42,7 @@ button{
     color: var(--secondary-color);
     padding: 15px 30px;
     line-height: 30px;
+    font-size: 1.2rem;
 }
 #aside-bar{
     width: 45px;
@@ -58,7 +57,7 @@ button{
     color: var(--primary-color);
 }
 #right-background{
-    background-image: url("/img/IMG_3598.JPG");
+    background-image: url("/img/diana.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
