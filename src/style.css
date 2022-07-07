@@ -8,12 +8,14 @@
     --title-size: 90px;
     --subtitle-size: 34px;
     --heading-font-familiy: font-family: 'Playfair Display', serif;
-  }
+}
+
 body{
     margin: 0;
     padding: 0;
-    background-color: var(--backgroung-color);
     font-family: 'Poppins', sans-serif;
+    background-color:var(--backgroung-color);
+   
 }
 h1{
     font-family: 'Playfair Display', serif;
@@ -25,8 +27,23 @@ h2{
     font-weight: 200;
     
 }
+p{
+    font-weight: 100;
+}
+button{
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    margin: 15px 20px;
+}
 .portada{
     background-color: #DE8B8B;
+}
+.btn-branding{
+    background: var(--primary-color);
+    border-radius: 4px;
+    color: var(--secondary-color);
+    padding: 15px 30px;
+    line-height: 30px;
 }
 #aside-bar{
     width: 45px;
