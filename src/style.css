@@ -1,41 +1,49 @@
-/*font-family: 'Playfair Display', serif;
-font-family: 'Poppins', sans-serif;*/
+
 :root {
     --primary-color: #DE8B8B;
     --secondary-color: #707070;
     --third-color:#F6F5F5;
     --backgroung-color:#F8E1E1;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-    --title-size: 150px
+    --title-size: 90px;
     --subtitle-size: 34px;
-   
+    --heading-font-familiy: font-family: 'Playfair Display', serif;
   }
 body{
     margin: 0;
     padding: 0;
-   background-color: var(--backgroung-color); 
+    background-color: var(--backgroung-color);
+    font-family: 'Poppins', sans-serif;
 }
 h1{
     font-family: 'Playfair Display', serif;
     font-weight: 700;
     font-size: var(--title-size);
+    margin-top: 20px;
 }
 h2{
-    font-family:  'Poppins', sans-serif;
     font-weight: 200;
+    
 }
-
-img{
-    opacity: 0.4;
+.portada{
+    background-color: #DE8B8B;
 }
 #aside-bar{
-    width: 60px;
-    height: 730px;
-    border: solid var(--secondary-color);
+    width: 45px;
+    height: 450px;
+    border: solid 1px var(--secondary-color);
     border-radius:35px;
     text-align: center;
     background-color: var(--backgroung-color);
+
 }
 #icon-aside{
     color: var(--primary-color);
+}
+#right-background{
+    background-image: url("/img/IMG_3598.JPG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
