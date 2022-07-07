@@ -1,13 +1,41 @@
 /*font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif;*/
+:root {
+    --primary-color: #DE8B8B;
+    --secondary-color: #707070;
+    --third-color:#F6F5F5;
+    --backgroung-color:#F8E1E1;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    --title-size: 150px
+    --subtitle-size: 34px;
+   
+  }
+body{
+    margin: 0;
+    padding: 0;
+   background-color: var(--backgroung-color); 
+}
 h1{
     font-family: 'Playfair Display', serif;
     font-weight: 700;
+    font-size: var(--title-size);
 }
 h2{
     font-family:  'Poppins', sans-serif;
     font-weight: 200;
 }
-i{
-    width:30px;
+
+img{
+    opacity: 0.4;
+}
+#aside-bar{
+    width: 60px;
+    height: 730px;
+    border: solid var(--secondary-color);
+    border-radius:35px;
+    text-align: center;
+    background-color: var(--backgroung-color);
+}
+#icon-aside{
+    color: var(--primary-color);
 }
