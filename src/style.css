@@ -31,6 +31,19 @@ h2{
 p{
     font-weight: 300;
 }
+ul{
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+li{
+    margin: 25px 0;
+    padding: 0;
+    text-align: center;
+}
+
 .portada{
     background-color:var(--primary-color);
     line-height: 300px;
@@ -44,6 +57,19 @@ p{
     line-height: 30px;
     font-size: 1.2rem;
 }
+.menu{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+.me{
+    background-image: url("/img/diana.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    margin-top: 30px;
+}
 #aside-bar{
     width: 45px;
     height: 450px;
@@ -52,6 +78,9 @@ p{
     text-align: center;
     background-color: var(--backgroung-color);
 
+}
+#height-right{
+    height: 100vh;
 }
 #icon-aside{
     color: var(--primary-color);
@@ -62,4 +91,10 @@ p{
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+}
+.left-aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
