@@ -6,8 +6,8 @@
     --fourth-color:#F8E1E1;
     --backgroung-color:#F6EEEE;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-    --title-size: 90px;
-    --subtitle-size: 34px;
+    --title-size: 70px;
+    --subtitle-size: 20px;
     --heading-font-familiy: font-family: 'Playfair Display', serif;
 }
 
@@ -31,6 +31,7 @@ h2{
 }
 p{
     font-weight: 300;
+    font-size: 18px;
 }
 ul{
     display: block;
@@ -73,7 +74,7 @@ li{
    
 }
 #aside-bar{
-    width: 60px;
+    width: 40px;
     border: solid 1px var(--secondary-color);
     border-radius:35px;
     text-align: center;
