@@ -45,6 +45,13 @@ li{
     padding: 0;
     text-align: center;
 }
+a:hover{
+    color: var(--third-color);
+}
+.title{
+    text-align: center;
+    font-size: var(--title-size);
+}
 
 .portada{
     background-color:var(--primary-color);
@@ -70,8 +77,6 @@ li{
     background-repeat: no-repeat;
     height: 25%;
     width: 25%;
-    
-   
 }
 #aside-bar{
     width: 40px;
@@ -80,7 +85,6 @@ li{
     text-align: center;
     background-color: var(--fourth-color);
     height: 70vh;
-
 }
 
 #icon-aside{
@@ -101,3 +105,8 @@ li{
     background-color: var(--primary-color);
     height: 100vh;
 }
+@media (max-width: 900px) {
+    h1 {
+      font-size: 18px;
+      text-align: center;
+    }
