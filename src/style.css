@@ -17,6 +17,23 @@
     #h1-mobil{
         font-size: 2rem;
     }
+    #h2-mobil{
+        font-size: 1rem;
+    }
+    #p-mobil{
+        font-size: 0.7rem;
+    }
+    #btn-mobil-size{
+        font-size: 0.75rem;
+    }
+    #container-mobil{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .portada{
+        width: 90wh;
+    }
   }
 
 body{
