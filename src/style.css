@@ -116,6 +116,21 @@ a:hover{
     height: 25%;
     width: 25%;
 }
+.bg-line{
+    background-image: url("/img/linea-tiempo.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.left-aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    height: 100vh;
+    padding-top: 80px
+}
 
 #aside-bar{
     width: 40px;
@@ -134,13 +149,4 @@ a:hover{
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-}
-.left-aside{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--primary-color);
-    height: 100vh;
-    padding-top: 80px
 }
