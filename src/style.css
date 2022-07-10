@@ -6,8 +6,8 @@
     --fourth-color:#F8E1E1;
     --backgroung-color:#F6EEEE;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-    --title-size: 70px;
-    --subtitle-size: 20px;
+    --title-size: 2.8rem;
+    --subtitle-size: 1.2rem;
     --heading-font-familiy: font-family: 'Playfair Display', serif;
 }
 @media (max-width: 700px) {
@@ -18,7 +18,7 @@
         font-size: 2rem;
     }
     #h2-mobil{
-        font-size: 1rem;
+        font-size: 0.85rem;
     }
     #p-mobil{
         font-size: 0.7rem;
@@ -31,8 +31,13 @@
         justify-content: center;
         align-content: center;
     }
-    .portada{
-        width: 90wh;
+    .container-mobil{
+        width: 100vw;
+        align-items: center;
+    }
+    .content-mobil{
+        width: 100vw;
+        text-align: center;
     }
   }
 
@@ -51,12 +56,12 @@ h1{
     margin-top: 20px;
 }
 h2{
-    font-weight: 400;
+    font-weight: 300;
     
 }
 p{
     font-weight: 300;
-    font-size: 18px;
+    font-size: 0.85rem
 }
 ul{
     display: block;
@@ -78,19 +83,26 @@ a:hover{
     text-align: center;
     font-size: var(--title-size);
 }
-
-.portada{
+.h2-mobil{
+    display: block;
+    font-weight: 300;
+    margin: 30px;
+    padding: 10px;
+}
+.div-portada{
     background-color:var(--primary-color);
-    line-height: 300px;
-    margin-bottom: 20px;
+    align-items: center;
+}
+.portada{
+    font-size: 0.85rem;
+    vertical-align: middle;
 }
 .btn-branding{
     background: var(--primary-color);
-    border-radius: 4px;
+    border-radius: 20px;
     color: var(--secondary-color);
-    padding: 15px 30px;
-    line-height: 30px;
-    font-size: 1.2rem;
+    padding: 10px 25px;
+    font-size: 1rem;
 }
 .menu{
     text-decoration: none;
@@ -104,6 +116,7 @@ a:hover{
     height: 25%;
     width: 25%;
 }
+
 #aside-bar{
     width: 40px;
     border: solid 1px var(--secondary-color);
@@ -112,7 +125,6 @@ a:hover{
     background-color: var(--fourth-color);
     height: 70vh;
 }
-
 #icon-aside{
     color: var(--primary-color);
 }
