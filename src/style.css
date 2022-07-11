@@ -93,6 +93,13 @@ a:hover{
     margin: 30px;
     padding: 10px;
 }
+.link{
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+.link:hover{
+    color: var(--primary-color);
+}
 .div-portada{
     background-color:var(--primary-color);
     align-items: center;
