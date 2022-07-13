@@ -33,7 +33,7 @@
     <link rel="stylesheet" href="/src/style.css" />
   </head>
   <body>
-    <div class="container-fluid w-100">
+    <div class="container-fluid m-0 p-0">
        <nav class=" navbar navbar-light fixed-top d-block d-sm-none">
             <div class="container">
               <a class="navbar-brand" href="index.html" title="Homepage link Porfolio"><i id="icon-aside" class="fa fa-house-user fa-2xl"></i
@@ -60,14 +60,15 @@
               </div>
             </div>
           </nav>
-      <div class="d-flex align-items-center mt-4" id="container-mobil">
+      <div class="d-flex align-items-center m-0" id="container-mobil">
         <div class="w-50-md mh-100 d-inline-block mt-5" id="content-mobil">
-          <h2 id="h2-mobil mt-5">Hi there<strong>!</strong></h2>
-          <div class="d-md-none d-sm-block">
+          <div class="d-md-none d-sm-block mb-2 mt-3">
             <img class="w-100" src="/img/diana.jpeg" alt="photo Porfolio">
           </div>
+          <div class="container">
+          <h2 id="h2-mobil">Hi there<strong>!</strong></h2>
           <h1 id="h1-mobil">I'm Diana</h1>
-          <div class="div-portada">
+          <div class="div-portada mt-5">
             <p class="portada">Front-end developer based in España</p>
           </div>
           <p id="p-mobil">
@@ -78,14 +79,16 @@
           </p>
           <a href="about.html" id="btn-mobil-size" class="btn btn-branding">More About Me</a>
         </div>
+       
         <div class="ms-3"></div>
+        </div>
         <div
-          class="w-50 mh-100 d-flex justify-content-end align-items-center d-none d-md-grid"
+          class="w-50 h-100 m-0 p-3 d-flex justify-content-end align-items-center d-none d-md-grid"
           id="right-background"
         >
           <div
             id="aside-bar"
-            class="m-2 d-flex flex-column justify-content-evenly"
+            class="m-2 d-flex flex-column justify-content-evenly p-2"
           >
             <a href="/"
               ><i id="icon-aside" class="fa fa-house-user fa-lg"></i
@@ -106,5 +109,8 @@
         </div>
       </div>
     </div>
+    <footer class="fixed-bottom">
+      <a class="link-footer" href="mailto:anaidb77@gmail.com">anaidb77@gmail.com</a>
+    </footer>
   </body>
 </html>
