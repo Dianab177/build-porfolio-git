@@ -79,6 +79,10 @@ li{
     padding: 0;
     text-align: center;
 }
+
+a{
+ transition: all 100ms ease-in-out;
+}
 a:hover{
     color: var(--third-color);
 }
