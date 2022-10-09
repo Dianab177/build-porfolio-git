@@ -138,12 +138,16 @@ footer{
     color: var(--secondary-color);
 }
 .me{
-    background-image: url("/img/DianaB.jpeg");
+    height: 40%;
+    width: 25%;
+}
+.porfolio-img{
+    background-image: url("/img/dianabp.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 25%;
-    width: 25%;
+    width: 100%;
+    height: 100%;
 }
 .bg-line{
     background-image: url("/img/linea-tiempo.png");
@@ -159,7 +163,7 @@ footer{
     align-items: center;
     background-color: var(--primary-color);
     height: 100vh;
-    padding-top: 80px
+    padding-top: 250px
 }
 
 #aside-bar{
@@ -168,13 +172,13 @@ footer{
     border-radius:35px;
     text-align: center;
     background-color: var(--fourth-color);
-    height: 70vh;
+    height: 60vh;
 }
 #icon-aside{
     color: var(--primary-color);
 }
 #right-background{
-    background-image: url("/img/DianaB.jpeg");
+    background-image: url("/img/diana4.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
