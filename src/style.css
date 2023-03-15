@@ -142,7 +142,7 @@ footer{
     width: 25%;
 }
 .porfolio-img{
-    background-image: url("/img/diana.jpeg");
+    background-image: url('/img/diana.jpeg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -178,9 +178,61 @@ footer{
     color: var(--primary-color);
 }
 #right-background{
-    background-image: url("/img/diana4.jpeg");
+    background-image: url("/img/img-perfil.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
+}
+.div-profolio{
+    width: 220px;
+    height: 120px;
+}
+.div-1{
+     background-image: url("/img/dictionary-react.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.div-2{
+    background-image: url("/img/replica-1.jpg");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.div-3{
+    background-image: url("/img/replica-dos.jpg");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.div-4{
+    background-image: url("/img/wheather-app-react.jpg");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.div-5{
+    background-image: url("/img/porfolio-react-basic.jpg");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.div-6{
+    background-image: url("/img/react-kronos.jpg");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.div-7{
+    background-image: url("/img/replica-coviders-react.jpg");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.div-8{
+    background-image: url("/img/wheather-javascript.jpg");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
 }
