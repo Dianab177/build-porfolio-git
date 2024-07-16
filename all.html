@@ -22,7 +22,7 @@
 </head>
 
 <body>
-  <div class="container-fluid">
+  <div class="container-fluid pb-2 m-0">
     <div class="row">
       <nav class=" navbar navbar-light fixed-top d-block d-md-none">
         <div class="container">
@@ -34,58 +34,212 @@
           </button>
           <div class="collapse navbar-collapse bg-body" id="navbarNav">
             <ul class="navbar-nav" id="bg-line">
-              <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html"
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="./index.html"
                   title="index page link">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="about.html" title="about page link">About me</a></li>
-              <li class="nav-item"><a class="nav-link" href="/Resume.html" title="Resume page link">Resume</a></li>
-              <li class="nav-item"><a class="nav-link" href="/portfolio.html" title="Portfolio page link">Porfolio</a>
+              <li class="nav-item"><a class="nav-link" href="./about.html" title="about page link">About me</a></li>
+              <li class="nav-item"><a class="nav-link" href="./resume.html" title="Resume page link">Resume</a></li>
+              <li class="nav-item"><a class="nav-link" href="./all.html" title="Portfolio page link">Porfolio</a>
               </li>
-              <li class="nav-item"><a class="nav-link" href="contact.html" title="contact page link">Contact me</a></li>
+              <li class="nav-item"><a class="nav-link" href="./contact.html" title="contact page link">Contact me</a>
+              </li>
             </ul>
           </div>
         </div>
       </nav>
+      <!--menu izquierdo-->
       <div class="col-sm-3 left-aside" id="nab-bar-size">
         <div class="me fixed-top d-none d-sm-block">
+          <div class="case-img">
+            <!-- imagen de menú -->
+          </div>
         </div>
-        <div class="container "> 
-          <div class="navbar d-flex justify-content-center align-items-center align-content-center d-none d-sm-block">
+        
+        <div class="container">
+          <div
+            class="navbar h-100 d-flex justify-content-center align-items-center align-content-center d-none d-sm-block">
             <ul class="menu d-flex flex-column justify-content-evenly">
-              <li><a class="menu" href="/">Home</a></li>
-              <li><a class="menu" href="/about.html">About Me</a></li>
-              <li><a class="menu" href="/Resume.html">Resume</a></li>
-              <li><a class="menu" href="/portfolio.html">Porfolio</a></li>
-              <li><a class="menu" href="contact.html">contact</a></li>
+              <li><a class="menu" href="./index.html">Home</a></li>
+              <li><a class="menu" href="./about.html">About Me</a></li>
+              <li><a class="menu" href="./resume.html">Resume</a></li>
+              <li><a class="menu" href="./all.html">Portfolio</a></li>
+              <li><a class="menu" href="./contact.html">Contact</a></li>
             </ul>
           </div>
         </div>
       </div>
+
       <div class="col-sm-8 mt-5">
-        <h1 id="h1-mobil" class="title">All my projects</h1>
+        <h1 id="h1-mobil" class="title">Casos de Uso</h1>
+        <blockquote class="blockquote">
+          <i id="icon-aside" class="fa fa-solid fa-quote-left"></i>
+          <p class="fs-6">He sido profesor de Diana en la asignatura de Técnicas de Ilustración Digital. Destaco su alta
+            capacidad de esfuerzo, porque no resulta fácil sacar una asignatura y una carrera trabajando a la par,
+            ingenio y criterio para aportar nuevas creatividades que daban continuidad, con sentido, a campañas
+            publicitarias implantadas. A día de hoy, trabajos suyos resueltos con la técnica de figura-fondo siguen
+            sirviendo de ejemplo para las nuevas generaciones de diseñadores que formamos en la Escuela.</p>
+          <footer class="blockquote-footer mt-3">Rafael Rumbo | ESMM -<cite title="Source Title"> Diseñador Gráfico y
+              Formador</cite></footer>
+        </blockquote>
         <div class="d-flex justify-content-center">
-          <a class="link ms-5 me-5" href="/all.html" title="link to all works">All</a>
-          <a class="link me-5" href="/javascript.html" title="link to javascript works">Javascript</a>
-          <a class="link me-5" href="/react.html" title="link to react works">React</a>
+          <a class="link ms-5 me-5" href="./all.html" title="link to all works">All</a>
+          <a class="link me-5" href="./javascript.html" title="link to javascript works">Javascript</a>
+          <a class="link me-5" href="./react.html" title="link to react works">React</a>
         </div>
         <div class="content mt-3">
-            <div class="w-100">
+          <div class="w-100">
             <div class="container d-flex justify-content-center w-100">
-            <div class="row d-flex flex-row w-100">
-              <div class="col bg-secondary m-1"><div style="width:150px; height:150px"></div></div>
-              <div class="col bg-secondary m-1"><div style="width:150px; height:150px"></div></div>
-          
-              <div class="w-100 lh-2"></div>
-          
-              <div class="col bg-secondary m-1"><div style="width:150px; height:150px"></div></div>
-              <div class="col bg-secondary m-1"><div style="width:150px; height:150px"></div></div>
+              <!--Tarjetas-->
+              <div class="row d-flex flex-row w-100">
+                  
+                <div class="col-md-6 card-movil">
+                  <a href="./prematch.html">
+                  <div class="card bg-transparent h-100 mb-3 p-2">
+                    <div class="row g-0">
+                      <div class="col-md-4 mt-4">
+                        <img src="./img/card-prematch.png" class="img-fluid rounded-start"
+                          alt="imagen portada proyecto PREMATCH-APP-SCHEDULE">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">PREMATCH-APP-SCHEDULE</h5>
+                          <div class="d-flex">
+                            <span class="subtitle-who">QUIÉN</span>
+                            <span class="card-text">Somos F5</span>
+                          </div>
+                          <div class="d-flex align-middle mt-2">
+                            <span class="subtitle-what">QUÉ</span>
+                            <span class="card-text">Crear una aplicación que me permita gestionar los datos de
+                              codificadores y
+                              reclutadores, manualmente o a través de un archivo excel, para poder planificar la agenda
+                              de un
+                              evento de entrevistas.</span>
+                          </div>
+                          <div class="d-flex align-middle mt-2">
+                            <span class="me-3">RESULTADO</span>
+                            <span class="card-text">Reducción de carga laboral en un 30%</span>
+                          </div>
+                          <div class="d-flex align-middle mt-2">
+                            <span class="me-3">TECNOLOGÍA</span>
+                            <span class="card-text"><img src="./img/Frame 14.png"
+                                alt="iconos de tecnologías utlizadas" width="120px"></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 </a>
+                </div>
+                <div class="col-md-6">
+                  <a href="./covimap.html">
+                  <div class="card bg-transparent h-100 mb-3 p-2">
+                    <div class="row g-0">
+                      <div class="col-md-4 mt-4">
+                        <img src="./img/covimap.png" class="img-fluid rounded-start"
+                          alt="imagen portada proyecto COVIMAP-APP-COVID TRACKER">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">COVIMAP-APP-COVID TRACKER</h5>
+                          <div class="d-flex">
+                            <span class="subtitle-who">QUIÉN</span>
+                            <span class="card-text">Factoría F5</span>
+                          </div>
+                          <div class="d-flex align-middle mt-2">
+                            <span class="subtitle-what">QUÉ</span>
+                            <span class="card-text">Crea un tablero de mandos para hacer un seguimiento del covid en el mundo,
+                              consultar estadísticas, ver la incidencia por países y datos relevantes.</span>
+                          </div>
+                          <div class="d-flex align-middle mt-2">
+                            <span class="me-3">RESULTADO</span>
+                            <span class="card-text">Optimización de la visualización de resultados en una aplicación de
+                              escritorio</span>
+                          </div>
+                          <div class="d-flex align-middle mt-2">
+                            <span class="me-3">TECNOLOGÍA</span>
+                            <span class="card-text"><img src="./img/iconos-covimap.png" alt="iconos de tecnologías utlizadas"
+                                width="120px"></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                </div>
+                <!--Tarjetas-->
+                <div class="w-100 m-2 lh-2"></div>
 
-              <div class="w-100 lh-2"></div>
-          
-              <div class="col bg-secondary m-1"><div style="width:150px; height:150px"></div></div>
-              <div class="col bg-secondary m-1"><div style="width:150px; height:150px"></div></div>
+                <div class="col-md-6 card-movil">
+                  <a href="./weather-app.html">
+                  <div class="card bg-transparent h-100 mb-3 p-2">
+                    <div class="row g-0">
+                      <div class="col-md-4 mt-4">
+                        <img src="./img/wheather-javascript.jpg" class="img-fluid rounded-start"
+                          alt="imagen portada proyecto PREMATCH-APP-SCHEDULE">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">WEATHER-APP</h5>
+                          <div class="d-flex">
+                            <span class="subtitle-who">QUIÉN</span>
+                            <span class="card-text">SheCodes</span>
+                          </div>
+                          <div class="d-flex align-middle mt-2">
+                            <span class="subtitle-what">QUÉ</span>
+                            <span class="card-text">Crear una aplicación que me permita ver el clima de la ciudad que se escoja en el buscador o con el localizador.</span>
+                          </div>
+                          <div class="d-flex align-middle mt-2">
+                            <span class="me-3">RESULTADO</span>
+                            <span class="card-text">Practicar el consumo de una api por medio de axios</span>
+                          </div>
+                          <div class="d-flex align-middle mt-2">
+                            <span class="me-3">TECNOLOGÍA</span>
+                            <span class="card-text"><img src="./img/tech-weather-js-app.png"
+                                alt="iconos de tecnologías utlizadas" width="120px"></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 </a>
+                </div>
+                <div class="col-md-6">
+                  <a href="./portfolio-js.html">
+                  <div class="card bg-transparent h-100 mb-3 p-2">
+                    <div class="row g-0">
+                      <div class="col-md-4 mt-4">
+                        <img src="./img/dictionary.jpg" class="img-fluid rounded-start"
+                          alt="imagen portada proyecto PREMATCH-APP-SCHEDULE">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">DICTIONARY-APP</h5>
+                          <div class="d-flex">
+                            <span class="subtitle-who">QUIÉN</span>
+                            <span class="card-text">SheCodes</span>
+                          </div>
+                          <div class="d-flex align-middle mt-2">
+                            <span class="subtitle-what">QUÉ</span>
+                            <span class="card-text">Crear una aplicación que me permita encontrar la definición de las palabras y su pronunciación.</span>
+                          </div>
+                          <div class="d-flex align-middle mt-2">
+                            <span class="me-3">RESULTADO</span>
+                            <span class="card-text">Prácticar el consumo de una API con axios</span>
+                          </div>
+                          <div class="d-flex align-middle mt-2">
+                            <span class="me-3">TECNOLOGÍA</span>
+                            <span class="card-text"><img src="./img/tech-weather.react.png"
+                                alt="iconos de tecnologías utlizadas" width="120px"></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  </a>
+                </div>
+
+              </div>
             </div>
           </div>
-        </div>
         </div>
         <div class="w-100 mt-5">
           <div class="mt-5 text-center">
@@ -96,21 +250,30 @@
         </div>
       </div>
       <div class="col-sm-1 d-flex justify-content-end align-items-center align-content-center d-none d-md-grid">
-        <div id="aside-bar" class="m-2 d-flex flex-column justify-content-evenly">
-          <a href="/"><i id="icon-aside" class="fa fa-house-user fa-2xl"></i></a>
-          <a href="/about.html"><i id="icon-aside" class="fa fa-user fa-2xl"></i></a>
-          <a href="/Resume.html"><i id="icon-aside" class="fa fa-briefcase fa-2xl"></i></a>
-          <a href="/portfolio.html"><i id="icon-aside" class="fa fa-image fa-2xl"></i></a>
-          <a href="contact.html"><i id="icon-aside" class="fa fa-paper-plane fa-2xl"></i></a>
+        <div id="aside-bar" class="m-2 d-flex flex-column justify-content-evenly p-2">
+          <a href="./index.html" title="link to homepage or portoflio-Diana Borrajo"><i id="icon-aside"
+              class="fa fa-house-user fa-lg"></i></a>
+          <a href="./about.html" title="link to about page or portoflio-Diana Borrajo"><i id="icon-aside"
+              class="fa fa-user fa-lg"></i></a>
+          <a href="./resume.html" title="link to resume page or portoflio-Diana Borrajo"><i id="icon-aside"
+              class="fa fa-briefcase fa-lg"></i></a>
+          <a href="./all.html" title="link to work page or portoflio-Diana Borrajo"><i id="icon-aside"
+              class="fa fa-image fa-lg"></i></a>
+          <a href="./contact.html" title="link to title page or portoflio-Diana Borrajo"><i id="icon-aside"
+              class="fa fa-paper-plane fa-lg"></i></a>
         </div>
       </div>
     </div>
   </div>
-  <footer class="fixed-bottom">
-    <a class="link-footer" href="mailto:DianaBorrajo@proton.me"
-      >DianaBorrajo@proton.me</a
-    >
-    <a class="link-footer" href="https://dancing-mochi-5b300b.netlify.app">Made by Diana Borrajo</a>
+
+  <footer id="footer-portfolio" class="fixed-bottom">
+    <a class="link-footer" href="mailto:DianaBorrajo@proton.me" title="link to e-mail contact">DianaBorrajo@proton.me</a>
+    <a class="link-footer" href="https://anaidb7722.myportfolio.com/" target="_blank">
+      <i class="fa fa-brands fa-square-behance m-2 fa-xl"></i></a>
+    <a class="link-footer" href="https://www.linkedin.com/in/dianaborrajo/" target="_blank"><i
+        class="fa fa-brands fa-linkedin fa-xl m-2"></i></a>
+    <a class="link-footer" href="https://github.com/Dianab177" target="_blank"><i
+        class="fa fa-brands fa-github-square fa-xl m-2"></i>    
   </footer>
 </body>
 

@@ -22,11 +22,12 @@
 </head>
 
 <body>
-  <div class="container-fluid">
-    <div class="row mb-1">
+  <div class="container-fluid pb-2 m-0">
+    <div class="row d-flex justify-content-between align-items-center">
+      <!--menú lateral derecho-->
       <nav class=" navbar navbar-light fixed-top d-block d-md-none">
         <div class="container">
-          <a class="navbar-brand" href="index.html" title="Homepage link Porfolio"><i id="icon-aside"
+          <a class="navbar-brand" href="./index.html" title="Homepage link Porfolio"><i id="icon-aside"
               class="fa fa-house-user fa-2xl"></i></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,118 +35,165 @@
           </button>
           <div class="collapse navbar-collapse bg-body" id="navbarNav">
             <ul class="navbar-nav" id="bg-line">
-              <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html"
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="./index.html"
                   title="index page link">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="about.html" title="about page link">About me</a></li>
-              <li class="nav-item"><a class="nav-link" href="/Resume.html" title="Resume page link">Resume</a></li>
-              <li class="nav-item"><a class="nav-link" href="/portfolio.html" title="Portfolio page link">Porfolio</a>
+              <li class="nav-item"><a class="nav-link" href="./about.html" title="about page link">About me</a></li>
+              <li class="nav-item"><a class="nav-link" href="./resume.html" title="Resume page link">Resume</a></li>
+              <li class="nav-item"><a class="nav-link" href="./all.html" title="Portfolio page link">Porfolio</a>
               </li>
-              <li class="nav-item"><a class="nav-link" href="contact.html" title="contact page link">Contact me</a></li>
+              <li class="nav-item"><a class="nav-link" href="./contact.html" title="contact page link">Contact me</a>
+              </li>
             </ul>
           </div>
         </div>
       </nav>
+      <!--contenido página-->
+
       <div class="col-sm-3 left-aside" id="nab-bar-size">
         <div class="me fixed-top d-none d-sm-block">
-          <div class="porfolio-img"></div>
+          <div class="about-img"></div>
         </div>
         <div class="container ">
           <div class="navbar d-flex justify-content-center align-items-center align-content-center d-none d-sm-block">
             <ul class="menu d-flex flex-column justify-content-evenly">
-              <li><a class="menu" href="/">Home</a></li>
-              <li><a class="menu" href="/about.html">About Me</a></li>
-              <li><a class="menu" href="/Resume.html">Resume</a></li>
-              <li><a class="menu" href="/portfolio.html">Porfolio</a></li>
-              <li><a class="menu" href="contact.html">contact</a></li>
+              <li><a class="menu" href="./index.html">Home</a></li>
+              <li><a class="menu" href="./about.html">About Me</a></li>
+              <li><a class="menu" href="./resume.html">Resume</a></li>
+              <li><a class="menu" href="./all.html">Porfolio</a></li>
+              <li><a class="menu" href="./contact.html">contact</a></li>
             </ul>
           </div>
         </div>
       </div>
-      <div class="col-sm-7 d-flex flex-column justify-content-center">
-        <h1 id="h1-mobil" class="title mb-3">About Me</h1>
-        <p class="portada text-center fw-normal">I'm <strong>Diana Borrajo</strong>, front-end developer based in A
-          Coruña, España</p>
-        <p class="mb-2 text-center">I have been training in fullstack web development and graphic design, two professions that I love. I enjoy learning new technologies to continue developing my knowledge and skills. Working in the IT sector and being able to further my career in programming, as well as my problem-solving skills and teamwork, is my goal.
 
-          A work environment that allows me to develop my creativity, learn, and have a good team is stimulating for my development. Being able to share my knowledge with the team and learn from others are also the best ways to advance in projects. Managing teams is a skill I have acquired in my work experience, along with working under pressure to achieve objectives.
-        </p>
+      <!--Descripción de mi-->
+      <div class="col-sm-7 d-flex flex-column justify-content-center">
+        <h1 id="h1-mobil" class="title">Sobre mi</h1>
+        <section class="mb-2">
+          <p class="portada text-center fw-normal"> </p>
+          <p class="mb-2"> Como desarrolladora fullstack y diseñadora UX/UI, mi pasión por el desarrollo web me
+            motiva a crear soluciones digitales que combinan estética con funcionalidad. Me especializo en diseñar
+            interfaces accesibles y fáciles de usar. Me encanta aprender constantemente y colaborar en equipos donde
+            cada
+            proyecto es una oportunidad para mejorar y innovar.
+          </p>
+        </section>
+        <blockquote class="blockquote">
+          <i id="icon-aside" class="fa fa-solid fa-quote-left"></i>
+          <p class="fs-6">He sido profesor de Diana en la asignatura de Técnicas de Ilustración Digital. Destaco su alta
+            capacidad de esfuerzo, porque no resulta fácil sacar una asignatura y una carrera trabajando a la par,
+            ingenio y criterio para aportar nuevas creatividades que daban continuidad, con sentido, a campañas
+            publicitarias implantadas. A día de hoy, trabajos suyos resueltos con la técnica de figura-fondo siguen
+            sirviendo de ejemplo para las nuevas generaciones de diseñadores que formamos en la Escuela.</p>
+          <footer class="blockquote-footer mt-3">Rafael Rumbo | ESMM -<cite title="Source Title"> Diseñador Gráfico y
+              Formador</cite></footer>
+        </blockquote>
+
+
         <div class="container d-flex justify-content-center">
-          <div class="container mt-1">
+          <div class="container mt-2">
+            <!---cards-->
             <div class="row m-3">
               <div class="col-sm bg-body m-1">
-                <h5 class="text-center m-2">1+</h5>
-                <p class="text-center">YEAR EXPERIENCE</p>
+                <h5 class="text-center m-3">2+</h5>
+                <p class="text-center">Experiencia</p>
               </div>
               <div class="col-sm bg-body m-1">
-                <h5 class="text-center m-2">30+</h5>
-                <p class="text-center">PROYECTS DONE</p>
+                <h5 class="text-center m-3">20+</h5>
+                <p class="text-center">Proyectos hechos</p>
               </div>
               <div class="w-100"></div>
               <div class="col-sm bg-body m-1">
-                <h5 class="text-center m-2">100%</h5>
-                <p class="text-center">HAPPY WORKING TEAM</p>
+                <h5 class="text-center m-3">100%</h5>
+                <p class="text-center">Trabajo en equipo</p>
               </div>
               <div class="col-sm bg-body m-1">
-                <h5 class="text-center m-2">100%</h5>
-                <p class="text-center">INITIATIVE</p>
+                <h5 class="text-center m-3">100%</h5>
+                <p class="text-center">Iniciativa, trabajo duro y adaptablidad</p>
               </div>
-          </div>
+            </div>
+            <!--iconos tecologías-->
+            <table class="table">
+              <tbody>
+                <tr>
+                  <th colspan="2" scope="col">
+                    <h5 class="text-center">¿Qué hago?</h5>
+                  </th>
+                </tr>
+                <tr>
+                  <td><img src="./img/icon-web-desing.png" alt="Icon web designer" width="60px"></td>
+                  <td colspan="2">
+                    <h6>DESARROLLADORA FULLSTACK</h6>
+                    <div>
+                      <i class="fa fa-html5 fa-xl m-3"></i>
+                      <i class="fa-brands fa-css3-alt fa-xl m-3"></i>
+                      <i class="fa-brands fa-sass fa-xl m-3"></i>
+                      <i class="fa-brands fa-bootstrap fa-xl m-3"></i>
+                      <i class="fa-brands fa-js fa-xl m-3"></i>
+                      <i class="fa-brands fa-react fa-xl m-3"></i>
+                      <i class="fa-brands fa-node fa-xl m-3"></i>
+                      <i class="fa-brands fa-php fa-xl m-3"></i>
+                      <i class="fa-brands fa-laravel fa-xl m-3"></i>
+                      <i class="fa fa-wordpress fa-xl m-3"></i>
+                      <i class="fa fa-github fa-xl m-3"></i>
+                      <i class="fa-brands fa-jira fa-xl m-3"></i>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td><img src="./img/icon-graphic-desing.png" alt="Icon graphic designer" width="60px"></td>
+                  <td colspan="2">
+                    <h6>UX-UI DESIGN</h6>
+                    <div>
+                      <i class="fa-brands fa-figma fa-xl m-3"></i>
+                      <img class="m-3" src="./img/xd 1.png" alt="Icon graphic designer" width="28px">
+                      <img class="m-3" src="./img/ilustrador 1.png" alt="Icon graphic designer" width="28px">
+                      <img class="m-3" src="./img/photoshop 1.png" alt="Icon graphic designer" width="28px">
+                      <img class="m-3" src="./img/indesign 1.png" alt="Icon graphic designer" width="28px">
+                      <img class="m-3" src="./img/despues-de-los-efectos 1.png" alt="Icon graphic designer"
+                        width="28px">
+                      <img class="m-3" src="./img/estreno-profesional 1.png" alt="Icon graphic designer" width="28px">
 
-        <table class="table m-2">
-          <tbody>
-            <tr>
-              <th colspan="2" scope="col">
-                <h5 class="text-center">What I do?</h5>
-              </th>
-            </tr>
-            <tr>
-              <td><img src="/img/icon-graphic-desing.png" alt="Icon graphic designer" width="60px"></td>
-              <td colspan="2">
-                <h6>Print Desing</h6>
-                <p>Skills: Adobe suite | Figma | XD | Trello | Jira | Film edition | UI | UX</p>
-              </td>
-            </tr>
-            <tr>
-              <td><img src="/img/icon-web-desing.png" alt="Icon web designer" width="60px"></td>
-              <td colspan="2">
-                <h6>Web Desing</h6>
-                <p>Skills: HTML-CSS | Javascript | React.js | Node.Js | PHP - Laravel</p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      </div>
-      </div>
-        <div class="col-sm-2 d-flex justify-content-end align-items-center align-content-center d-none d-md-grid">
-          <div
-            id="aside-bar" class="m-2 d-flex flex-column justify-content-evenly p-2"
-          >
-            <a href="/" title="link to homepage or portoflio-Diana Borrajo"
-              ><i id="icon-aside" class="fa fa-house-user fa-lg"></i
-            ></a>
-            <a href="/about.html" title="link to about page or portoflio-Diana Borrajo"
-              ><i id="icon-aside" class="fa fa-user fa-lg"></i
-            ></a>
-            <a href="/Resume.html" title="link to resume page or portoflio-Diana Borrajo"
-              ><i id="icon-aside" class="fa fa-briefcase fa-lg"></i
-            ></a>
-            <a href="/portfolio.html" title="link to work page or portoflio-Diana Borrajo"
-              ><i id="icon-aside" class="fa fa-image fa-lg"></i
-            ></a>
-            <a href="contact.html" title="link to title page or portoflio-Diana Borrajo"
-              ><i id="icon-aside" class="fa fa-paper-plane fa-lg"></i
-            ></a>
+
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
           </div>
         </div>
       </div>
+
+      <!--barra menú lateral derecho-->
+      <div
+        class="col-sm-2 d-flex justify-content-end align-items-center align-content-center d-none d-md-grid container-right">
+        <div id="aside-bar" class="m-2 d-flex flex-column justify-content-evenly p-2">
+          <a href="./index.html" title="link to homepage or portoflio-Diana Borrajo"><i id="icon-aside"
+              class="fa fa-house-user fa-lg"></i></a>
+          <a href="./about.html" title="link to about page or portoflio-Diana Borrajo"><i id="icon-aside"
+              class="fa fa-user fa-lg"></i></a>
+          <a href="./resume.html" title="link to resume page or portoflio-Diana Borrajo"><i id="icon-aside"
+              class="fa fa-briefcase fa-lg"></i></a>
+          <a href="./all.html" title="link to work page or portoflio-Diana Borrajo"><i id="icon-aside"
+              class="fa fa-image fa-lg"></i></a>
+          <a href="./contact.html" title="link to title page or portoflio-Diana Borrajo"><i id="icon-aside"
+              class="fa fa-paper-plane fa-lg"></i></a>
+        </div>
+      </div>
+
     </div>
   </div>
-  <footer class="fixed-bottom">
+  </div>
+  <footer id="footer-portfolio" class="fixed-bottom">
     <a class="link-footer" href="mailto:DianaBorrajo@proton.me"
-      >DianaBorrajo@proton.me</a
-    >
-    <a class="link-footer" href="https://github.com/Dianab177/build-porfolio-git">Made by Diana Borrajo</a>
+      title="link to e-mail contact">DianaBorrajo@proton.me</a>
+    <a class="link-footer" href="https://anaidb7722.myportfolio.com/" target="_blank">
+      <i class="fa fa-brands fa-square-behance m-2 fa-xl"></i></a>
+    <a class="link-footer" href="https://www.linkedin.com/in/dianaborrajo/" target="_blank"><i
+        class="fa fa-brands fa-linkedin fa-xl m-2"></i></a>
+    <a class="link-footer" href="https://github.com/Dianab177" target="_blank"><i
+        class="fa fa-brands fa-github-square fa-xl m-2"></i>
   </footer>
 </body>
 

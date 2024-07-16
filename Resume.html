@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="Porfolio by Diana Borrajo" content="Front-end developer, Diana" />
+  <meta name="Portfolio by Diana Borrajo" content="Front-end developer, Diana" />
   <title>Diana Borrajo Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,61 +22,71 @@
 </head>
 
 <body>
-  <div class="container-fluid">
-    <div class="row mb-4">
-      <nav class="navbar navbar-light fixed-top d-block d-sm-none">
+  <div class="container-fluid pb-2 m-0">
+    <div class="row d-flex justify-content-between">
+
+      <nav class=" navbar navbar-light fixed-top d-block d-md-none">
         <div class="container">
-          <a class="navbar-brand" href="index.html" title="Homepage link Portfolio"><i id="icon-aside"
-              class="fa fa-house-user fa-2xl"></i></a>
+          <a class="navbar-brand" href="index.html" title="Homepage link Porfolio"><i id="icon-aside"
+              class="fa fa-house-user fa-xl"></i></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse bg-body" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html" title="index page link">Home</a>
+          <div class="collapse navbar-collapse bg-body " id="navbarNav">
+            <ul class="navbar-nav" id="bg-line">
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="./index.html"
+                  title="index page link">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="./about.html" title="about page link">About me</a></li>
+              <li class="nav-item"><a class="nav-link" href="./resume.html" title="Resume page link">Resume</a></li>
+              <li class="nav-item"><a class="nav-link" href="./all.html" title="Portfolio page link">Porfolio</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html" title="about page link">About me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/Resume.html" title="Resume page link">Resume</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/portfolio.html" title="Portfolio page link">Porfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html" title="contact page link">Contact me</a>
+              <li class="nav-item"><a class="nav-link" href="./contact.html" title="contact page link">Contact me</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
+       <!--menu izquierdo-->
       <div class="col-sm-3 left-aside" id="nab-bar-size">
         <div class="me fixed-top d-none d-sm-block">
-          <div class="porfolio-img"></div>
+          <div class="resume-img">
+            <!-- imagen de menú -->
+          </div>
         </div>
+        
         <div class="container">
           <div
             class="navbar h-100 d-flex justify-content-center align-items-center align-content-center d-none d-sm-block">
             <ul class="menu d-flex flex-column justify-content-evenly">
-              <li><a class="menu" href="/">Home</a></li>
-              <li><a class="menu" href="/about.html">About Me</a></li>
-              <li><a class="menu" href="/Resume.html">Resume</a></li>
-              <li><a class="menu" href="/portfolio.html">Porfolio</a></li>
-              <li><a class="menu" href="contact.html">contact</a></li>
+              <li><a class="menu" href="./index.html">Home</a></li>
+              <li><a class="menu" href="./about.html">About Me</a></li>
+              <li><a class="menu" href="./resume.html">Resume</a></li>
+              <li><a class="menu" href="./all.html">Portfolio</a></li>
+              <li><a class="menu" href="./contact.html">Contact</a></li>
             </ul>
           </div>
         </div>
       </div>
-      <div class="col-sm-7 mt-5">
-        <h1 id="h1-mobil" class="title mb-5">Resume</h1>
-        <div class="container mb-5">
+      <!--Educación y experiencia-->
+      <div class="col-sm-7 d-flex flex-column justify-content-center pb-5">
+        <h1 id="h1-mobil" class="title">Experiencia y Formación</h1>
+        <blockquote class="blockquote">
+          <i id="icon-aside" class="fa fa-solid fa-quote-left"></i>
+          <p class="fs-6">Trabajar con Diana ha sido muy productivo y una experiencia muy enriquecedora, como compañera
+            codo con codo y día a día en el equipo de Diseño UX - UI.
+            Ha realizado diferentes proyectos a lo largo de los meses, demostrando amplios conocimientos en herramientas
+            de diseño, trabajo en equipo, resolución de problemas, generando ideas, entre otras muchas habilidades. </p>
+          <footer class="blockquote-footer mt-3">Bárbara Lorenzo | Imatia -<cite title="Source Title"> Diseñadora Gráfica y multiomedia</cite></footer>
+        </blockquote>
+
+         <!--Educación-->
+        <div class="container">
           <h4 class="mt-5">EDUCATION</h4>
-          <div class="row">
-            <div class="col-sm-4">
-              <div class="card bg-transparent">
+
+          <div class="row w-100">
+            <div class="col-sm-4 mb-3">
+              <div class="card bg-transparent card-resume">
                 <div class="card-body">
                   <h6 class="card-title" style="background: #f6aeae">
                     Higher Technician in Web Application Development (DAW) | IES Fernando Wirtz
@@ -88,8 +98,8 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-4">
-              <div class="card bg-transparent">
+            <div class="col-sm-4 mb-3">
+              <div class="card bg-transparent card-resume">
                 <div class="card-body">
                   <h6 class="card-title" style="background: #f6aeae">
                     Graphic Design | Escuela Superior Marcelo Macías
@@ -102,11 +112,11 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-4">
-              <div class="card bg-transparent">
+            <div class="col-sm-4 mb-3">
+              <div class="card bg-transparent card-resume">
                 <div class="card-body">
                   <h6 class="card-title" style="background: #f6aeae">
-                    Senior Technician in Pattern Making, Scaling, and Modeling| ESDM GOYMAR
+                    Senior Technician in Pattern Making, Scaling, and Modeling | ESDM GOYMAR
                   </h6>
                   <p class="card-text">
                     2013 - 2015 <br />
@@ -116,81 +126,92 @@
               </div>
             </div>
           </div>
-          <div class="w-100 mb-3"></div>
-          <hr class="m-5" />
-          <div>
-            <h4 class="mt-5">EXPERIENCE</h4>
-            <div class="w-100"></div>
-            <div class="row">
-              <div class="col-sm-4">
-                <div class="card bg-transparent">
-                  <div class="card-body">
-                    <h6 class="card-title" style="background: #f6aeae">
-                      Outlier | Spanish Trainer AI<br />
-                      2014 - Present
-                    </h6>
-                    <p class="card-text">
-                      Responsibilities: Evaluation of AI-generated responses, text writing, and verification of the
-                      accuracy of the information provided by the models.
-                    </p>
-                  </div>
+
+          <div class="w-100"></div>
+
+          <!--experiencia-->
+          <h4 class="mt-5">EXPERIENCE</h4>
+
+          <div class="w-100"></div>
+
+          <div class="row w-100">
+            <div class="col-sm-4 mb-3">
+              <div class="card bg-transparent card-resume">
+                <div class="card-body">
+                  <h6 class="card-title" style="background: #f6aeae">
+                    Outlier | Spanish Trainer AI<br />
+                    2014 - Present
+                  </h6>
+                  <p class="card-text">
+                    Responsibilities: Evaluation of AI-generated responses, text writing, and verification of the
+                    accuracy of the information provided by the models.
+                  </p>
                 </div>
               </div>
-              <div class="col-sm-4">
-                <div class="card bg-transparent">
-                  <div class="card-body">
-                    <h6 class="card-title" style="background: #f6aeae">
-                      Imatia | UX-UI Design <br />
-                      2023 - 2024
-                    </h6>
-                    <p class="card-text">
-                      Responsibilities: Developed prototypes for desktop and mobile applications with a user-centered design focus.
-                      Collaborated on the creation and implementation of components for the company's Design System.
-                      Utilized tools like Figma and Adobe XD for prototyping. Edited videos, created posters, and
-                      designed PowerPoint templates. Worked in teams using agile methodologies with Jira.
-                    </p>
-                  </div>
+            </div>
+            <div class="col-sm-4 mb-3">
+              <div class="card bg-transparent card-resume">
+                <div class="card-body">
+                  <h6 class="card-title" style="background: #f6aeae">
+                    Imatia | UX-UI Design <br />
+                    2023 - 2024
+                  </h6>
+                  <p class="card-text">
+                    Responsibilities: Developed prototypes for desktop and mobile applications with a user-centered
+                    design focus.
+                    Collaborated on the creation and implementation of components for the company's Design System.
+                    Utilized tools like Figma and Adobe XD for prototyping. Edited videos, created posters, and
+                    designed PowerPoint templates. Worked in teams using agile methodologies with Jira.
+                  </p>
                 </div>
               </div>
-              <div class="col-sm-4">
-                <div class="card bg-transparent">
-                  <div class="card-body">
-                    <h6 class="card-title" style="background: #f6aeae">
+            </div>
+            <div class="col-sm-4 mb-3">
+              <div class="card bg-transparent card-resume">
+                <div class="card-body">
+                  <h6 class="card-title" style="background: #f6aeae">
                     Bitácora Santa Cristina | Manager - Graphic Design<br />
                     2010 - 2020
-                    </h6>
-                    <p class="card-text">
-                      Responsibilities: Team management, organization of advertising campaigns, branding, project management, and visual
+                  </h6>
+                  <p class="card-text">
+                    Responsibilities: Team management, organization of advertising campaigns, branding, project
+                    management, and visual
                     merchandising. Supervised online presence and provided training in professional skills. Customer
                     service - sales, stock control, visual merchandising, and cashier duties.
-                    </p>
-                  </div>
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
+
       </div>
-      <div class="col-sm-2 d-flex justify-content-end align-items-center align-content-center d-none d-sm-grid">
+      <!--barra menú lateral derecho-->
+      <div class="col-sm-2 d-flex justify-content-end align-items-center align-content-center d-none d-md-grid container-right">
         <div id="aside-bar" class="m-2 d-flex flex-column justify-content-evenly p-2">
-          <a href="/" title="link to homepage or portfolio-Diana Borrajo"><i id="icon-aside"
+          <a href="./index.html" title="link to homepage or portoflio-Diana Borrajo"><i id="icon-aside"
               class="fa fa-house-user fa-lg"></i></a>
-          <a href="/about.html" title="link to about page or portfolio-Diana Borrajo"><i id="icon-aside"
+          <a href="./about.html" title="link to about page or portoflio-Diana Borrajo"><i id="icon-aside"
               class="fa fa-user fa-lg"></i></a>
-          <a href="/Resume.html" title="link to resume page or portfolio-Diana Borrajo"><i id="icon-aside"
+          <a href="./resume.html" title="link to resume page or portoflio-Diana Borrajo"><i id="icon-aside"
               class="fa fa-briefcase fa-lg"></i></a>
-          <a href="/portfolio.html" title="link to work page or portfolio-Diana Borrajo"><i id="icon-aside"
+          <a href="./all.html" title="link to work page or portoflio-Diana Borrajo"><i id="icon-aside"
               class="fa fa-image fa-lg"></i></a>
-          <a href="contact.html" title="link to contact page or portfolio-Diana Borrajo"><i id="icon-aside"
+          <a href="./contact.html" title="link to title page or portoflio-Diana Borrajo"><i id="icon-aside"
               class="fa fa-paper-plane fa-lg"></i></a>
         </div>
       </div>
     </div>
-  </div>
-
-  <footer class="fixed-bottom">
-    <a class="link-footer" href="mailto:DianaBorrajo@proton.me">DianaBorrajo@proton.me</a>
-    <a class="link-footer" href="https://dancing-mochi-5b300b.netlify.app">Made by Diana Borrajo</a>
+ </div>
+  <!--Fooyer general-->
+  <footer id="footer-portfolio" class="fixed-bottom">
+    <a class="link-footer" href="mailto:DianaBorrajo@proton.me" title="link to e-mail contact">DianaBorrajo@proton.me</a>
+    <a class="link-footer" href="https://anaidb7722.myportfolio.com/" target="_blank">
+      <i class="fa fa-brands fa-square-behance m-2 fa-xl"></i></a>
+    <a class="link-footer" href="https://www.linkedin.com/in/dianaborrajo/" target="_blank"><i
+        class="fa fa-brands fa-linkedin fa-xl m-2"></i></a>
+    <a class="link-footer" href="https://github.com/Dianab177" target="_blank"><i
+        class="fa fa-brands fa-github-square fa-xl m-2"></i>    
   </footer>
 </body>
 
